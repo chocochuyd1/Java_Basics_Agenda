@@ -19,6 +19,16 @@ public class PlaceHolderContact {
 		Contact myContact = csd.createContact(p.contact);
 		Contact myFriendContact = csd.createContact(p.friend);
 		Contact myOtherFriendContact = csd.createContact(p.friend2);
+/*-------------------------------------------------------------------------------*/		
+		/*
+		Contact[] contacts = csd.findAll();
+
+		for (Contact c : contacts) {
+			System.out.println(c);
+		}
+		*/
+/*-------------------------------------------------------------------------------*/		
+/*		
 		Contact[] contacts = csd.findByContactType(contactType.FRIEND);
 		if (contacts != null) {
 			for (Contact c : contacts) {
@@ -35,6 +45,8 @@ public class PlaceHolderContact {
 		} else {
 			System.out.println("No se encontraron resultados del tipo " + contactType.WORK);
 		}
+		*/
+/*-------------------------------------------------------------------------------*/
 	}
 
 	public void crearContactos() {
